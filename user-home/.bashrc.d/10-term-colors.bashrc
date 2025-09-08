@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# shellcheck disable=SC2016,SC2034,SC2046,SC2059
 
 function colors() {
 	local fgc bgc vals seq0

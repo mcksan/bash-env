@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+gitleaks dir --no-banner ./
+shellcheck .husky/pre-commit user-home/.bashrc user-home/.bashrc.d/*.bashrc

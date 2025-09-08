@@ -1,0 +1,15 @@
+{
+  "name": "bash-env",
+  "version": "1.0.0",
+  "description": "San's McKID bash environment",
+  "main": "''",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "author": "San 'rdn' Mônico",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
