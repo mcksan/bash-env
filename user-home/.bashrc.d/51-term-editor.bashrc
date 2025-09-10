@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-export VISUAL="/usr/bin/micro"
-export EDITOR="/usr/bin/micro"
-export PAGER="/usr/bin/less"
-export SUDO_EDITOR="/usr/bin/micro"
+micro="$(type -P micro)"
+export VISUAL="$micro"
+export EDITOR="$micro"
+export PAGER="$(type -P less)"
+export SUDO_EDITOR="$micro"
